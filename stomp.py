@@ -122,7 +122,7 @@ class Stomp(object):
         1. subscription id is to identify the consumer which are acknowledging the message.
         this must match the parament in subscribe().
         2. the message-id means which message are acknowledging by the consumer.
-        this must match the value in received MESSAGE frame header from server, which identify each
+        this must matches the value in received MESSAGE frame header from server, which identify each
         unique message.
         for example: 
         '''
