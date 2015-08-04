@@ -1,13 +1,11 @@
 ###STOMP protocol client
->connecting to and communicating with Apache ActiveMQ.
+#####connecting to and communicating with Apache ActiveMQ.
 
-Based on stompy: http://bitbucket.org/benjaminws/python-stomp/. 
-
-I simplified it. :)
+>Based on stompy: http://bitbucket.org/benjaminws/python-stomp/. I simplified it. :)
 
 How to use:
 
-Input stomp.py and frame.py into your project folder and 
+Input stomp.py and frame.py into your project folder and:
 
     >> from stomp import Stomp
     >>
