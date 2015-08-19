@@ -6,7 +6,7 @@
 How to use:
 
 Input stomp.py and frame.py into your project folder and:
-
+```python
     >> from stomp import Stomp
     >>
     >> stomp = Stomp(serveraddr="127.0.0.1")
@@ -23,3 +23,4 @@ Input stomp.py and frame.py into your project folder and:
     >>
     >> stompreceiver.unsubscribe(id="stompreceiver")
     >> stompreceiver.dis_connect_server()
+```
